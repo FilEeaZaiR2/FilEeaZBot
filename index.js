@@ -607,7 +607,7 @@ if(message.content === prefix + "invite") {
     .setTitle("Infos sur le serveur")
     .addField("voici mon lien d'invitation", "https://discordapp.com/oauth2/authorize?client_id=460499038870044672&scope=bot&permissions=2146958591")
     .addField("Créer un role", "Le Animateur est a créé pour le jeu numbergame")
-    .setFooter("Sakura by FilEeaZaiR")
+    .setFooter("FilEeaZBot by FilEeaZaiR")
     message.channel.send(invite_embed)
     console.log("Un membre à utilisé la commande s!invite")
 }
@@ -621,7 +621,7 @@ if(message.content === prefix + "info") {
     .addField("Tu as rejoins le ", message.member.joinedAt)
     .addField("Nombre de membres", message.guild.members.size)
     .addField("Nombre de salons et de catégories", message.guild.channels.size)
-    .setFooter("Sakura by FilEeaZaiR")
+    .setFooter("FilEeaZBot by FilEeaZaiR")
     message.channel.send(info_embed)
     console.log("Un membre à utilisé la commande s!info")
 }
@@ -707,7 +707,7 @@ if(message.content.startsWith(prefix + "pets")) {
     .setColor('RANDOM')
     .setTitle(`:dog: Voici une image d'un animal :cat: :`)
     .setImage(gif)
-    .setFooter("Sakura by FilEeaZaiR")
+    .setFooter("FilEeaZBot by FilEeaZaiR")
     message.channel.send(pets_embed);
 
 }

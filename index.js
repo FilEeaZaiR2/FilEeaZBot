@@ -50,7 +50,7 @@ function game3(){
 };
 
 //Login + connexion du bot :
-client.login("0pHHknP0rqhjxHWRVn87Ru5uDldElV_a");
+client.login(process.env.TOKEN);
 
 client.on("ready", () => {
     console.log("Connexion en cours ...");
